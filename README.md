@@ -1,7 +1,12 @@
+<img src="logo2.png" width="64" height="64">
+
 # List2Array
 
 List2Array Is extension to simple convert raw list seprated by line break to array for programming.
 
+### Data Types Supported
+- Integer
+- String
 ## Features
 
 Select raw list you want to convert into and launch List2Array :)
