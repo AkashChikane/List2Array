@@ -20,7 +20,22 @@
 				"command": "extension.helloWorld",
 				"title": "List to Array"
 			}
-		]
+		],
+		"configuration": {
+			"title": "List2Array",
+			"properties": {
+				"list2array.includeVariableName": {
+					"type": "boolean",
+					"default": true,
+					"description": "Include the variable name in the output."
+				},
+				"list2array.variableName": {
+					"type": "string",
+					"default": "arr",
+					"description": "The name of the variable to be used in the output."
+				}
+			}
+		}
 	},
 	"scripts": {
 		"test": "node ./test/runTest.js"
